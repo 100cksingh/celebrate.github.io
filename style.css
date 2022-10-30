@@ -1,0 +1,26 @@
+
+body{
+    overflow-x: hidden;
+    animation: shakebody linear 6s infinite;
+
+}
+.sun{
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    top: 110px;
+    left: 20px;
+    background-color: white;
+    background-image: url(imgs/img3.jpg);
+    border-radius: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation:sunrotate linear .10s infinite;
+}
+@keyframes sunrotate
+{
+    100%{
+        transform:rotate(350deg);
+    }
+}
